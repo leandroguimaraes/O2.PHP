@@ -1,5 +1,7 @@
 <?php
 abstract class SysObject {
+	protected $id;
+
 	protected $query;
 	protected $dbVars;
 
