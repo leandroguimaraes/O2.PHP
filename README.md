@@ -156,4 +156,4 @@ $query->AddParameter('@id', 11, PDO::PARAM_INT); // for PDO::PARAM_* constants o
 $query->ExecuteNonQuery('DELETE FROM '.$client->get_table().' WHERE id = @id');
 ```
 
-Enjoy! :)
+Enjoy it! :)
